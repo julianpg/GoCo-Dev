@@ -14,21 +14,22 @@
 	parentDiv.setAttribute('aria-live', 'assertive');
 	parentDiv.setAttribute('role', 'dialog');
 	parentDiv.setAttribute('aria-atomic', 'true');
-	parentDiv.innerHTML = '<div>\
+	parentDiv.innerHTML = '<div>
 	
-  <button type="button" id="closeInvite" class="embeddedServiceCloseIcon" aria-label="Exit invitation">&times;</button>\
-  <img class="embeddedServiceAvatar" src="https://gocogroup--atdev--c.documentforce.com/servlet/servlet.ImageServer?id=0153L0000008uTL&oid=00D3L0000008jqS&lastMod=1587501107000"></img>\
-  <div class="embeddedServiceInvitationHeader" aria-labelledby="snapins_titletext" aria-describedby="snapins_bodytext">\
-  <span class="embeddedServiceTitleText" id="snapins_titletext">Need help from a trusted expert? </span>\
-  </div>\
-  <div class="embeddedServiceInvitationBody">\
-	  <p id="snapins_bodytext"></p>\
-  </div>\
-  </div>\
-  <div class="embeddedServiceInvitationFooter" aria-describedby="snapins_bodytext">\
-	  <button type="button" class="embeddedServiceActionButton" id="acceptInvite">Chat Now <img src="https://gocogroup--atdev--c.documentforce.com/servlet/servlet.ImageServer?id=0153L0000008uTQ&oid=00D3L0000008jqS&lastMod=1587501489000"></img></button>\
-	  <button type="button" class="embeddedServiceActionButton" id="rejectInvite">No thanks</button>\
-  </div>';
+				  <button type="button" id="closeInvite" class="embeddedServiceCloseIcon" aria-label="Exit invitation">&times;</button>
+				  <img class="embeddedServiceAvatar" src="https://gocogroup--atdev--c.documentforce.com/servlet/servlet.ImageServer?id=0153L0000008uTL&oid=00D3L0000008jqS&lastMod=1587501107000"></img>
+				  <div class="embeddedServiceInvitationHeader" aria-labelledby="snapins_titletext" aria-describedby="snapins_bodytext">
+				  <span class="embeddedServiceTitleText" id="snapins_titletext">Need help from a trusted expert? </span>
+				  </div>
+				  <div class="embeddedServiceInvitationBody">
+					  <p id="snapins_bodytext"></p>
+				  </div>
+				  </div>
+				  <div class="embeddedServiceInvitationFooter" aria-describedby="snapins_bodytext">
+					  <button type="button" class="embeddedServiceActionButton" id="acceptInvite">Chat Now <img src="https://gocogroup--atdev--c.documentforce.com/servlet/servlet.ImageServer?id=0153L0000008uTQ&oid=00D3L0000008jqS&lastMod=1587501489000"></img></button>
+					  <button type="button" class="embeddedServiceActionButton" id="rejectInvite">No thanks</button>
+				</div>';
+				  
 	document.getElementsByTagName('body')[0].appendChild(parentDiv);
 	document.getElementById('snapins_bodytext').textContent = "We're here to help you get what you need.";
   </script>

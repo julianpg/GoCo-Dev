@@ -14,6 +14,7 @@
 	parentDiv.setAttribute('aria-live', 'assertive');
 	parentDiv.setAttribute('role', 'dialog');
 	parentDiv.setAttribute('aria-atomic', 'true');
+	parentDiv.setAttribute("class","embeddedServiceInvitation");
 	parentDiv.innerHTML = '<div>
 	
 				  <button type="button" id="closeInvite" class="embeddedServiceCloseIcon" aria-label="Exit invitation">&times;</button>
@@ -52,6 +53,7 @@
   .embeddedServiceInvitation {
 	  background-color: transparent;
 	  box-shadow: 0 7px 12px rgba(0, 0, 0, 0.28);
+	  float: right;
 	  max-height: 274px;
 	  max-width: 360px;
 	  -webkit-box-shadow: 0 7px 12px rgba(0, 0, 0, 0.28);
@@ -174,6 +176,7 @@
   }
   
   .embeddedServiceInvitationFooter>.embeddedServiceActionButton {
+	  font-family: GoCoBodyWeb;
 	  font-size: 14px;
 	  max-height: 40px;
 	  border: none;
